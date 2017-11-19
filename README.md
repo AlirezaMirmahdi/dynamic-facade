@@ -1,5 +1,5 @@
 # dynamic-facade
-This is a dynamic implementation of Facade pattern for calling business objects .
+This is a dynamic implementation of Facade pattern for calling business objects . the documentation is also avialable in my site : http://mirmahdi.pro/projects/dynamicfacade
 
 ## Benefits and usages
 You can call your business objects (BOs) or everything else with less codes in this way. Also Facade object keeps every class in a dictionary so all BOs will be created only one time. All the BOs have the reference of the Facade so they can call other inside without overhead. The only thing you need is to create one instance of Facade object and keep it. 
